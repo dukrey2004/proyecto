@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l
+    8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="navbar py-6 relative ">
+      <div class="container mx-auto flex ">
+        <div class="flex-shrink-0 py-8 px-8">
+          <img class=" " src="imge/logopro.png" alt="logo">
+        </div>
+
+        <div class="flex lg:hidden h-10 items-center justify-center pt-14 pl-14 sm:pl-44 md:pl-80 ">
+          <img class="w-10  " src="https://cdn-icons-png.flaticon.com/128/3917/3917215.png" onclick="openMenu();">
+        </div>
+
+        <div id="menu" class="lg:flex hidden flex-grow justify-between absolute lg:relative lg:top-0 top-40 left-0 lg:bg-transparent bg-sky-900	
+            w-full lg:w-auto ">
+          <div class="pt-8 text-xl flex flex-col lg:flex-row">
+            <a href="#nosotros"
+              class="text-white py-6 px-8 lg:mr-7 hover:text-red-600 transition duration-500 text-2xl transition hover:-translate-y-1 hover:scale-110 duration-300  ">Inicio</a>
+            <a href="#producto"
+              class="text-white py-6 px-8 lg:mr-7 hover:text-red-600 transition duration-500 text-2xl transition hover:-translate-y-1 hover:scale-110 duration-300">Producto</a>
+            <a href="#Categoria"
+              class="text-white py-6 px-8 lg:mr-7 hover:text-red-600 transition duration-500 text-2xl transition hover:-translate-y-1 hover:scale-110 duration-300">Categoria</a>
+            <a href="#contacto"
+              class="text-white py-6 px-8 lg:mr-7 hover:text-red-600 transition duration-500 text-2xl transition hover:-translate-y-1 hover:scale-110 duration-300">Contactos</a>
+
+          </div>
+          <div class="flex flex-row items-center">
+
+            <div class="lg:w-40 sm:w-0 w-0 flex flex-row ">
+              <a href="" style="margin-right: 14px;">
+                <img
+                  class="lg:border sm:border-0 rounded-full border-white-500 hover:bg-white transition duration-500 transition hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="">
+              </a><a href="" style="margin-right: 14px;">
+                <img
+                  class="lg:border sm:border-0 rounded-full border-white-500 hover:bg-white transition duration-500 transition hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://cdn-icons-png.flaticon.com/128/12107/12107562.png" alt="">
+              </a><a href="">
+                <img
+                  class="lg:border sm:border-0 rounded-full border-white-500 hover:bg-white transition duration-500 transition hover:-translate-y-1 hover:scale-110 duration-300"
+                  src="https://cdn-icons-png.flaticon.com/128/6422/6422200.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+    </nav>
+  </header>
+  
+  <header>
+    <section id="nosotros" class="bg-gray-100 py-12 h-screen">
+      <div class="container mx-auto px-6 h-full">
+        <div class="flex flex-col md:flex-row items-center h-full">
+
+          <div class="md:w-1/2 mb-8 md:mb-0 h-full flex justify-center">
+            <img src="imge/nosotros.jpg" alt="Equipo de trabajo"
+              class="w-full h-auto max-h-full rounded-lg shadow-lg object-cover">
+          </div>
+
+          <div id="da" class="md:w-1/2 md:pl-10 h-full flex flex-col justify-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Quiénes Somos</h2>
+            <p class="text-gray-600 mb-6">
+              Somos una empresa especializada en el mantenimiento y comercialización de equipos electrónicos y
+              comerciales. Nuestro equipo está formado por técnicos expertos y profesionales con una amplia experiencia
+              en
+              el sector, lo que nos permite ofrecer servicios de alta calidad y soluciones adaptadas a las necesidades
+              de
+              cada cliente.
+            </p>
+            <p class="text-gray-600 mb-6">
+              Nos comprometemos a garantizar la eficiencia y durabilidad de los equipos, desde su instalación y puesta
+              en
+              marcha hasta el mantenimiento preventivo y correctivo. Además, contamos con un catálogo de equipos de alta
+              tecnología para asegurar que nuestros clientes encuentren exactamente lo que necesitan para sus
+              operaciones.
+            </p>
+            <a href="#contacto"
+              class="bg-blue-500 text-white px-4 py-2 max-w-xs text-center rounded-lg hover:bg-blue-600 transition duration-300 transition duration-500 text-2xl transition hover:-translate-y-1 hover:scale-110 duration-300">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <header>
+    <div id="carouselExample" class="carousel slide mx-auto max-w-1xl2 max-h-1xl2 py-32 sm:py-48 lg:py-56 ">
+     
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <div class="carousel-inner">
+      
+        <div class="carousel-item active text-center">
+          <h1 class="display-4 font-weight-bold">Servicio a domicilio</h1>
+          <p class="mt-4">Servicio de recolección y entrega de productos desde la comodidad de su casa.</p>
+          <div class="mt-4">
+            <a href="#contacto" class="btn btn-primary me-3 transition hover:-translate-y-1 hover:scale-110 duration-300">Agenda ahora</a>
+            <a href="#servicio" class="text-light ">Siguiente sección &rarr;</a>
+          </div>
+        </div>
+  
+        <div class="carousel-item text-center">
+          <h1 class="display-4 font-weight-bold">Entrega rápida</h1>
+          <p class="mt-4">Entrega de productos en tiempo récord garantizado.</p>
+          <div class="mt-4">
+            <a href="#contacto" class="btn btn-primary me-3 transition hover:-translate-y-1 hover:scale-110 duration-300">Ordena ahora</a>
+            <a href="#servicio" class="text-light">Siguiente sección &rarr;</a>
+          </div>
+        </div>
+  
+        <div class="carousel-item text-center">
+          <h1 class="display-4 font-weight-bold ">Atención personalizada</h1>
+          <p class="mt-4">Asistencia y seguimiento personalizado a sus pedidos.</p>
+          <div class="mt-4">
+            <a href="#contacto" class="btn btn-primary me-3 transition hover:-translate-y-1 hover:scale-110 duration-300">Contáctanos</a>
+            <a href="#servicio" class="text-light">Siguiente sección &rarr;</a>
+          </div>
+        </div>
+      </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </header>
+  <header>
+    <section id="servicio" class="relative isolate overflow-hidden bg-slate-800 px-6 py-24 sm:py-32 lg:px-8"
+      style="min-height: 100vh;">
+      <div class="mx-auto max-w-7xl text-center">
+        <h2 class="text-3xl font-bold tracking-tight text-amber-400 sm:text-4xl">Nuestros Servicios</h2>
+        <p class="mt-4 text-lg leading-8 text-white">
+          Ofrecemos una amplia gama de servicios diseñados para satisfacer tus necesidades y ayudarte a alcanzar tus
+          objetivos.
+        </p>
+      </div>
+
+      <div class="mt-16 grid grid-cols-1 gap-y-12 gap-x-8 sm:grid-cols-2 lg:grid-cols-3 mx-auto max-w-7xl">
+
+        <div class="bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+          <img class="h-12 w-12 mx-auto mb-4" src="imge/l2.png" alt="Icono Servicio 1">
+          <h3 class="text-2xl font-semibold text-amber-400 text-center">Servicio de ingenieria</h3>
+          <p class="mt-4 text-base text-white text-center">
+            Diseñamos y desarrollamos soluciones de ingeniería a la medida para mejorar la eficiencia operativa y
+            cumplir
+            con los más altos estándares de calidad en cada proyecto.
+          </p>
+        </div>
+
+        <div class="bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+          <img class="h-12 w-12 mx-auto mb-4" src="imge/l3.png" alt="Icono Servicio 2">
+          <h3 class="text-2xl font-semibold text-amber-400 text-center">Servicio de mantenimiento</h3>
+          <p class="mt-4 text-base text-white text-center">
+            Ofrecemos servicios de mantenimiento preventivo y correctivo para asegurar el funcionamiento óptimo de tus
+            equipos electrónicos, prolongando su vida útil y minimizando tiempos de inactividad.
+          </p>
+        </div>
+
+
+        <div class="bg-slate-700 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+          <img class="h-12 w-12 mx-auto mb-4" src="imge/l33.png" alt="Icono Servicio 3">
+          <h3 class="text-2xl font-semibold text-amber-400 text-center">Comercialización</h3>
+          <p class="mt-4 text-base text-white text-center">
+            Ofrecemos una amplia gama de productos electrónicos de las mejores marcas, garantizando calidad, tecnología
+            de
+            vanguardia y precios competitivos. Te ayudamos a encontrar la solución perfecta para tus necesidades
+            tecnológicas.
+          </p>
+        </div>
+      </div>
+    </section>
+  </header>
+
+    <header>
+      <section id="Categoria" class="bg-gray-900 min-h-screen flex items-center">
+        <div class="container mx-auto py-8">
+          <h2 class="text-center text-2xl font-semibold text-white mb-4">NUESTRAS CATEGORÍAS</h2>
+          <div class="flex justify-center items-center mb-4">
+            <div class="border-t-2 border-teal-400 w-1/4"></div>
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center">
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-headphones text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Audio</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-desktop text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Computación</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-wrench text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Herramientas</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-plug text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Cables</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-mobile-alt text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400 text-center">Telefonía, Celulares y Tablets</span>
+            </div>
+
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-tv text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">TV y Video</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-video text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400 text-center">Videovigilancia y Seguridad</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-lightbulb text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Iluminación</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-bolt text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Energía</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-home text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Casa y Oficina</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-robot text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400 text-center">Proyectos de electrónica</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <i class="fas fa-car text-sky-400 text-4xl mb-2"></i>
+              <span class="text-amber-400">Automotriz</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <header>
+      <section id="producto" class="producto relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:px-8"
+        style="min-height: 100vh;">
+        <div class="mx-auto max-w-7xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight text-red-800 sm:text-4xl transition hover:-translate-y-1 hover:scale-110 duration-300">Nuestros productos</h2>
+          <p class="mt-4 text-lg leading-8 text-white">
+            "Ponemos a tu alcance una selección de productos creados para cumplir con tus expectativas y apoyar tus objetivos".
+          </p>
+        </div>
+  
+        <div class="mt-16 grid grid-cols-1 gap-y-12 gap-x-8 sm:grid-cols-2 lg:grid-cols-3 mx-auto max-w-7xl">
+  
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-34 mx-auto mb-4 rounded-lg" src="https://i.blogs.es/e32e39/analisis-iphone-15-pro-35/450_1000.jpeg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">iPhone 15 Pro</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $4.000.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Smartphone de alta gama con pantalla OLED de 6.1", chip A17 Pro, cámara de 48 MP y construcción de titanio. Ideal para fotografía y productividad móvil.
+            </p>
+          </div>
+  
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-34 mx-auto mb-4 rounded-lg " src="https://i.blogs.es/f86a3e/macbook-air-m3-analisis-058/450_1000.webp" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">MacBook Air M2</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $4.800.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Ultrabook ligero con pantalla Retina de 13.6", procesador Apple M2, 256 GB de almacenamiento SSD y batería de larga duración. Perfecta para estudiantes y profesionales.
+            </p>
+          </div>
+  
+  
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-34 mx-auto mb-4 rounded-lg" src="https://i.gadgets360cdn.com/large/sony_wh1000xm5_review_earcups_1663675864075.jpg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">Sony WH-1000XM5</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">$1.600.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Auriculares inalámbricos con cancelación de ruido de última generación, sonido de alta resolución y diseño cómodo para uso prolongado.
+            </p>
+          </div>
+
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-34 mx-auto mb-4 rounded-lg" src="https://amateurphotographer.com/wp-content/uploads/sites/7/2023/05/Canon_EOS_R50-15.jpg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">Canon EOS R50</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $2.700.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Cámara mirrorless compacta con sensor APS-C de 24.2 MP, ideal para fotografía y vídeo en 4K.
+            </p>
+          </div>
+
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-34 mx-auto mb-4 rounded-lg" src="https://i.pcmag.com/imagery/reviews/02KWlomO4qUNMG1kJNjFmEo-3..v1653513177.jpg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">Dell UltraSharp 27" 4K</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $2.500.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Monitor profesional con resolución 4K, panel IPS y alta precisión de color, perfecto para editores y diseñadores.
+            </p>
+          </div>
+
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-34 mx-auto mb-4 rounded-lg" src="https://images.versus.io/objects/bosch-gsr-12v-15.front.master.1576684641045.jpg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300"> Bosch GSR 12V-15</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $400.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Taladro compacto y ligero para uso doméstico y profesional con batería de 12V.
+            </p>
+          </div>
+
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-36 mx-auto mb-4 rounded-lg" src="https://i.ebayimg.com/images/g/9p4AAOSwAKljQeGQ/s-l1200.jpg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">Cable HDMI 2.1 de AmazonBasics</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $60.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Cable HDMI de alta velocidad compatible con 4K, 8K y audio de alta definición.
+            </p>
+          </div>
+
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-36 mx-auto mb-4 rounded-lg" src="https://http2.mlstatic.com/D_NQ_NP_972110-MCO69121935428_042023-O.webp" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">Cámara de seguridad - Arlo Pro 4</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $1.500.000 COP</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Cámara de seguridad con resolución 2K, visión nocturna y conexión Wi-Fi para monitoreo remoto. 
+            </p>
+          </div>
+
+          <div class="bg-slate-900 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+            <img class="h-32 w-36 mx-auto mb-4 rounded-lg" src="https://m.media-amazon.com/images/I/71lbfrt5CVS._AC_UF894,1000_QL80_.jpg" alt="">
+            <h3 class="text-2xl font-semibold text-amber-400 text-center transition hover:-translate-y-1 hover:scale-110 duration-300">Anker PowerCore 10000</h3>
+            <h4 class="text-2xl font-semibold text-slate-400 text-center">Precio: $150.000 COPn</h4>
+            <p class="mt-4 text-base text-white text-center">
+              Batería portátil de 10.000 mAh, con capacidad para cargar smartphones y otros dispositivos en movimiento.
+            </p>
+          </div>
+
+          
+        </div>
+      </section>
+    </header>
+
+    <header>
+      <section
+      class="relative isolate overflow-hidden bg-white flex items-center justify-center px-6 py-24 sm:py-32 lg:px-8"
+      style="min-height: 100vh;">
+      <div
+        class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20">
+      </div>
+      <div
+        class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center">
+      </div>
+  
+      <div class="mx-auto max-w-2xl lg:max-w-4xl relative">
+        <div class="carousel-container relative overflow-hidden w-full">
+          <div class="carousel-wrapper flex transition-transform duration-500 ease-in-out">
+  
+            <div class="carousel-item w-full flex-shrink-0 text-center p-8">
+              <img class="mx-auto h-12" src="imge/logcarru.png" alt="Logo 1">
+              <blockquote class="mt-10 text-xl font-semibold text-gray-900 sm:text-2xl">
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                  molestiae.”</p>
+              </blockquote>
+              <figcaption class="mt-6">
+                <img class="mx-auto h-10 w-10 rounded-full"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="Foto de Judith Black">
+                <div class="mt-4 text-gray-900 font-semibold">Isabella serje</div>
+                <div class="text-gray-600">Cliente</div>
+              </figcaption>
+            </div>
+  
+  
+            <div class="carousel-item w-full flex-shrink-0 text-center p-8">
+              <img class="mx-auto h-12" src="imge/logcarru.png" alt="Logo 2">
+              <blockquote class="mt-10 text-xl font-semibold text-gray-900 sm:text-2xl">
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                  molestiae.”</p>
+              </blockquote>
+              <figcaption class="mt-6">
+                <img class="mx-auto h-10 w-10 rounded-full"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqcVXIgWCvTbb55lDj91N_g2rd0F3rma21CA&s"
+                  alt="Foto de Judith Black">
+                <div class="mt-4 text-gray-900 font-semibold">Lionel Messi</div>
+                <div class="text-gray-600">Cliente</div>
+              </figcaption>
+            </div>
+  
+  
+            <div class="carousel-item w-full flex-shrink-0 text-center p-8">
+              <img class="mx-auto h-12" src="imge/logcarru.png" alt="Logo 3">
+              <blockquote class="mt-10 text-xl font-semibold text-gray-900 sm:text-2xl">
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                  molestiae.”</p>
+              </blockquote>
+              <figcaption class="mt-6">
+                <img class="mx-auto h-10 w-10 rounded-full"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3HBG7VE4Vj7zQVcxw8rM-rgpLAUWVIpQw3w&s"
+                  alt="Foto de Judith Black">
+                <div class="mt-4 text-gray-900 font-semibold">Luis Dias</div>
+                <div class="text-gray-600">Cliente</div>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+  
+        <button
+          class="absolute top-1/2 left-4 -translate-y-1/2 text-white bg-gradient-to-r from-blue-500 to-blue-600 p-4 rounded-full shadow-lg focus:outline-none hover:scale-110 transition-all duration-300 ease-in-out"
+          id="prevBtn">
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+        </button>
+        <button
+          class="absolute top-1/2 right-4 -translate-y-1/2 text-white bg-gradient-to-r from-blue-500 to-blue-600 p-4 rounded-full shadow-lg focus:outline-none hover:scale-110 transition-all duration-300 ease-in-out"
+          id="nextBtn">
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </section>
+    <header>
+      <footer id="contacto" class="navbar text-white p-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-lg font-bold mb-4">Horarios de Atención:</h3>
+            <p class="text-blue-300 underline mb-2">Sede principal - Punto de venta Suramericana:</p>
+            <p class="mb-1">
+              <i class="fas fa-clock mr-2"></i> Lunes a Viernes 8:00 am - 6:00 pm / Sábado 8:00 am - 1:00 pm
+            </p>
+            <p class="mb-4">
+              <i class="fas fa-map-marker-alt mr-2"></i> Calle 48D N° 65A - 35 Medellín - Colombia.
+            </p>
+
+            <p class="text-blue-300 underline mb-2">Punto de venta CC La Cascada:</p>
+            <p class="mb-1">
+              <i class="fas fa-clock mr-2"></i> Lunes a Viernes 8:30 am - 6:00 pm / Sábados 8:30 am - 3:30 pm
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt mr-2"></i> Carrera 53 N° 50 - 51 Local 205 - Medellín - Colombia.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold mb-4">Atención al Cliente:</h3>
+            <p class="mb-4">¿Cómo podemos ayudarte?</p>
+            <a href="#navbar"
+              class="bg-blue-500 text-white px-4 py-2 max-w-xs text-center rounded-lg hover:bg-blue-600 transition duration-300">INICIO</a>
+
+            <div class="flex space-x-4 pt-8">
+              <a href="#" class="text-white text-xl"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-white text-xl"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white text-xl"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="text-white text-xl"><i class="fab fa-tiktok"></i></a>
+              <a href="#" class="text-white text-xl"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </header>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
